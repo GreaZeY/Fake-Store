@@ -4,7 +4,7 @@
 
 ### Libraries/technologies used
 - `Fake Store API` : to get products.
-- `React` : for component based app and reusability and also my fav. library .
+- `React` : for component based app and reusability.
 - `axios` : to fetch the data from API.
 - `react-material-ui-carousel` : to add a carousel/sliding images.
 
