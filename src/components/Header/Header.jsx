@@ -10,7 +10,7 @@ const Header = () => {
     return (
         
         <div className="header">
-            <a href="/" className="logo"> <span>Fake</span> Store</a>
+            <a href="/" className="logo"> <span>Fake</span>&nbsp;Store</a>
             <div className="navlinks">
             <a href="/">Home</a>
             <a href="/#products">Products</a>

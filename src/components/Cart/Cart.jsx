@@ -68,7 +68,7 @@ const Cart = () => {
             return (
               
               <div key={item.id} className="citems">
-                <a href={`/product/${item.id}/${item.title}`}><img src={item.image} alt={item.title} /></a> 
+                <a href={`/product/${item.id}/${item.title}`}><img draggable="false" src={item.image} alt={item.title} /></a> 
                 <div className="right">
                 <a href={`/product/${item.id}/${item.title}`}><h1>{item.title}</h1></a>
                   <div className="block">

@@ -9,25 +9,29 @@
   box-shadow: 0 0.1vmax 0.4vmax rgb(204, 204, 204);
   z-index: 1000;
 }
-
+.navlinks>form{
+  position: relative;
+}
 .navlinks>form>input{
   border: none;
   width: 15vmax;
   height: 1.5vmax;
-  margin-top: 1.2vmax;
+  margin-top: 1.3vmax;
   margin-left: 1vmax;
   color: tomato;
   background: transparent;
-  box-shadow: .1vmax .1vmax .4vmax rgb(0, 0, 0);
+  box-shadow : inset 8px 8px 8px  #00000071, 
+  inset -8px -8px 8px  #03030370 ;
   padding: .1vmax;
   padding-left: .5vmax;
   font-size: 1vmax;
   border-radius: .5vmax;
+
 }
 .navlinks>form>input:focus{
-  background: white;
-  color: tomato;
-  outline: none ;
+  outline: none;
+  border:1px solid tomato;
+  box-shadow: 0 0 20px #000000;
 }
 
 .navlinks>form>button{
@@ -36,8 +40,8 @@
   color: tomato;
   border: none;
   position: absolute;
-  left:75.8%;
-  top:30%;
+  left:91%;
+  top:31%;
   cursor: pointer;
 }
 .logo{
@@ -82,15 +86,9 @@
 }
 
 @media screen and (max-width: 640px) {
-  .header > img {
-    margin-left: 0;
-  }
   .navlinks {
     margin-left: 2vmax;
     margin-right: 0.5vmax;
   }
-  .navlinks>form>button{
-    left:85%;
-    
-  }
+
 }
