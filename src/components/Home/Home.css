@@ -1,0 +1,22 @@
+.banner{
+    display: flex;
+    justify-content: center;
+    }
+.CarouselImage{
+    height: 50vmax;
+    width: 100vmax;
+
+object-fit: contain;
+}
+
+@media screen and (max-width:940px){
+    .banner{
+        height: auto;
+        width: auto;
+        }
+    .CarouselImage{
+        height: 50vmax;
+        width: 50vmax;
+    
+    }
+}

@@ -1,0 +1,112 @@
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin-top: 3vmax ;
+    
+}
+.container>h1{
+    border-bottom: .15vmax solid tomato;
+    width: 15vmax;
+    text-align: center;
+}
+.ProdContainer{
+    display:flex;
+    margin:4vmax auto;
+    width: 80vw;
+    flex-wrap:wrap;
+    justify-content: center;
+    max-width: 100%;
+    align-self: center;
+}
+.card{
+    width:20vmax;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color:rgb(48, 48, 48);
+    margin:2vmax;
+    transition: all .5s;
+    padding-bottom: .5vmax;
+}
+
+.productCard{ width:20vmax;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color:rgb(48, 48, 48);
+   
+    transition: all .5s;
+}
+
+.productCard>img{
+    width:16vmax;
+    height: 20vmax;
+    align-self: center;
+    object-fit:contain;
+}
+.productCard>div{
+    margin:.5vmax;
+    display: flex;
+    justify-content: flex-start;
+}
+.productCard>div>span{
+    margin-top: .7vmax;
+    margin-left: .5vmax;
+    font-size:.5vmax;
+}
+
+.productCard>p{
+    font-size:1vmax;
+    margin: 1vmax .5vmax;
+    margin-bottom: 0;
+}
+
+.card>button{
+    margin: .5vmax;
+    font-size: 1vmax;
+    color: white;
+    background:tomato;
+    border: none;
+    width: 50%;
+    height: 2vmax;
+    align-self: center;
+    border-radius: 2vmax;
+    cursor: pointer;
+    align-self: center;
+}
+.productCard>button:hover{
+    background:rgb(233, 105, 83);
+   
+}
+.productCard>span{
+    margin: .5vmax;
+    font-size: 1.2vmax;
+    color:tomato;
+    text-align: right;
+   
+}
+.card:hover{
+    box-shadow: 0 0 8px rgba(15,15,15,0.26);
+    transform: translateY(-.3vmax);
+}
+
+@media screen and (max-width:640px) {
+    .productCard>p{
+        font-size:1.7vmax;
+    }
+    .productCard>div{
+        margin: 0;
+        display: block;
+    }
+    .productCard>span{
+        font-size:1.5vmax;
+    }
+    .productCard>div>span{
+        font-size: 1vmax;
+    }
+    
+}

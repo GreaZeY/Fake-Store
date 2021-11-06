@@ -1,0 +1,96 @@
+.header {
+  display: flex;
+  justify-content: center;
+  background: rgb(15, 22, 36);
+  height: 4vmax;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 0.1vmax 0.4vmax rgb(204, 204, 204);
+  z-index: 1000;
+}
+
+.navlinks>form>input{
+  border: none;
+  width: 15vmax;
+  height: 1.5vmax;
+  margin-top: 1.2vmax;
+  margin-left: 1vmax;
+  color: tomato;
+  background: transparent;
+  box-shadow: .1vmax .1vmax .4vmax rgb(0, 0, 0);
+  padding: .1vmax;
+  padding-left: .5vmax;
+  font-size: 1vmax;
+  border-radius: .5vmax;
+}
+.navlinks>form>input:focus{
+  background: white;
+  color: tomato;
+  outline: none ;
+}
+
+.navlinks>form>button{
+  width: 1.2vmax;
+  background: transparent;
+  color: tomato;
+  border: none;
+  position: absolute;
+  left:75.8%;
+  top:30%;
+  cursor: pointer;
+}
+.logo{
+  padding: 1vmax;
+  color: tomato;
+  padding-left: 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6vmax;
+  text-decoration: none;
+}
+.logo > span {
+  color: white;
+  font-size: 1.5vmax;
+}
+.navlinks {
+  display: flex;
+  margin-left: 15vmax;
+  margin-right: 2vmax;
+}
+
+.navlinks > a {
+  margin: 1.4vmax;
+  font-size: 1.1vmax;
+  text-decoration: none;
+  color: white;
+  transition: 0.5s;
+  text-shadow: .1vmax .1vmax .5vmax rgb(0, 0, 0);
+}
+.navlinks > a:hover {
+  color: tomato;
+}
+
+.header >a> svg {
+  height: 2.5vmax;
+  color: rgb(247, 115, 92);
+  margin-top: 0.6vmax;
+  transition: color .5s;
+}
+
+.header >a> svg:hover {
+  color:rgba(255, 99, 71, 0.829);
+}
+
+@media screen and (max-width: 640px) {
+  .header > img {
+    margin-left: 0;
+  }
+  .navlinks {
+    margin-left: 2vmax;
+    margin-right: 0.5vmax;
+  }
+  .navlinks>form>button{
+    left:85%;
+    
+  }
+}

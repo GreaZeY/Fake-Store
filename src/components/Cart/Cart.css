@@ -1,0 +1,140 @@
+.cart{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    width: 95vw;
+}
+.total{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 30vw;
+   align-self: flex-end;
+   box-shadow: 0 0 8px rgba(15,15,15,0.26);
+   margin-top: 0;
+   margin-bottom: 2vmax;
+   padding: .5vmax;
+
+}
+.total>p{
+font-size: 1.2vmax;
+}
+.total>button{
+    margin: .5vmax;
+    font-size: 1vmax;
+    color: white;
+    background:tomato;
+    border: none;
+    width: 30%;
+    height: 2vmax;
+    align-self: center;
+    cursor: pointer;
+    align-self: center;
+}
+.total>button:disabled{
+    background: grey;
+    cursor:not-allowed;
+}
+.cartContainer{
+    font-display: flex;
+    align-items: center;
+    width: 95vw;
+    align-content: center;
+    justify-content: center;
+    box-shadow: 0 0 8px rgba(15,15,15,0.26);
+}
+.cartContainer>p{
+    font-size: 2vmax;
+    margin: 1vmax;
+}
+.back:hover #arrow{
+color:rgba(255, 99, 71, 0.904);
+}
+.back{
+    width: 3vmax;
+    background-color: transparent;
+    border: none;
+    margin-bottom: 1vmax;
+    color:tomato;
+    margin: 2vmax;
+    align-self: flex-start;
+    cursor: pointer;
+}
+
+.citems{
+    border-top: 1px solid rgba(255, 99, 71, 0.185);
+    display: flex;
+   align-items: center;
+   margin: auto 1vmax;
+}
+.citems>a>img{
+    width:10vmax;
+    height:10vmax;
+    margin-top: 1vmax;
+    margin-bottom: 1vmax;
+    object-fit: contain;
+    
+}
+.index{
+    display: flex;
+    justify-content: space-between;
+    margin: 1vmax;
+    color: tomato;
+}
+
+.index>p{
+    font-size: 1.2vmax;
+    margin-top: 1vmax;
+}
+
+.right{
+    margin-left: 2vmax;
+    width: 80vw;
+}
+.right>a,.right>a>h1{
+    font-size: 1.1vmax;
+    margin-bottom: 1vmax;
+    text-decoration: none;
+    color: black ;
+    transition: .5s;
+}
+.right>a>h1:hover{
+    color: rgb(117, 117, 117) ;
+}
+.price{
+    font-size: 1.5vmax;
+    color:Tomato;
+}
+
+
+.block> span{
+    font-size: .85vmax;
+    color:  rgb(60, 163, 60);
+}
+.block>p{
+    font-size: .8vmax;
+    margin-bottom: .5vmax;
+    margin-top: .4vmax;
+}
+
+.block>button{
+    border: none;
+    color: red;
+    font-size: .9vmax;
+    background: transparent;
+    cursor: pointer;
+}
+.block>button:hover{
+    border-bottom: 1px solid red;
+}
+
+@media screen and (max-width:765px) {
+    .total{
+        width: 45vw;
+    }
+    
+}
