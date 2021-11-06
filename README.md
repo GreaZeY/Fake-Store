@@ -1,6 +1,8 @@
-# Fake Store
+# [Fake Store](https://grzy-fakestore.netlify.app/)
 
 ## An online store with a infinite scroll and cart implementaion.
+
+[Open site](https://grzy-fakestore.netlify.app/)
 
 ### Libraries/technologies used
 - `Fake Store API` : to get products.
