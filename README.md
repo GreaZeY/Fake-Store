@@ -1,6 +1,6 @@
 # Fake Store
 
-##An online store with a infinite scroll and cart implementaion.
+## An online store with a infinite scroll and cart implementaion.
 
 ### Libraries/technologies used
 - `Fake Store API` : to get products.
