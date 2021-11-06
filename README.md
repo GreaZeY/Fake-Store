@@ -2,8 +2,7 @@
 
 An online store with a infinite scroll and cart implementaion.
 
-
-Libraries/technologies used in Front-end
+## Libraries/technologies used
 - `Fake Store API` : to get products.
 - `React` : for component based app and reusability and also my fav. library .
 - `axios` : to fetch the data from API.
