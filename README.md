@@ -17,6 +17,12 @@
 ![](https://github.com/GreaZeY/Fake-Store/blob/main/SS/f.png)
 
 
+### Installing depencencies and running the app
+* Fork the repository
+* Clone the repository
+* Install the dependencies by `npm install`
+* Run in development mode by `npm start`
+
 
 
 
